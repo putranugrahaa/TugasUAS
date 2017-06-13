@@ -39,7 +39,7 @@ public class Daftarmenu {
         }
         
         System.out.println("Apakah data anda ingin di rubah kan ? jawab ya/tidak");jwb=input.nextLine();
-        if(jwb.equals("lanjut")){
+        if(jwb.equals("ya")){
             System.out.print("kdbarang :");kdbarang = input.nextLine();
             System.out.print("jenisbarang :");jenisbarang = input.nextLine();
             System.out.print("harga :");harga =input.nextLine();
@@ -48,7 +48,7 @@ public class Daftarmenu {
         }
         
         System.out.println("Apakah data anda ingin di hapus kan ? jawab ya/tidak");jwb=input.nextLine();
-        if(jwb.equals("lanjut")){
+        if(jwb.equals("ya")){
             
             System.out.print("kdbarang :");kdbarang=input.nextLine();
             tambah.hapus(kdbarang);
